@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Configuration.УправлениеПрокатомИСервисомОборудования" id="ec642a89-7041-4f29-b115-db0620f1253d" configVersion="aea5163cd7f1dc4ba071661f320724ee00000000"/>
-		<Metadata name="Language.Русский" id="acc25c98-1ebe-4951-88dc-a4b4ab0f08a0" configVersion="9e91dc94be731d4e91e578e8902d155a00000000"/>
+		<Metadata name="Configuration.УправлениеПрокатомИСервисомОборудования" id="a5baca0c-4ea9-4c81-b6ca-7b09e9dfde63" configVersion="52409ecd24939a4e96f002a48ee6a35a00000000"/>
+		<Metadata name="Language.Русский" id="ff1d8c7d-1e7a-4c91-b9f0-b9bb1e11e392" configVersion="2f4785e249ff1a4f98987ba1ec4622a100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
