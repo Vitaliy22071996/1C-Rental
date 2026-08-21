@@ -256,6 +256,12 @@
 			<Language>Русский</Language>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
+			<Subsystem>Прокат</Subsystem>
+			<Subsystem>ПаркОборудования</Subsystem>
+			<Subsystem>Сервис</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Аналитика</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ВладелецФайловШрифт</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
@@ -667,6 +673,12 @@
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>УдалитьИнформация</CommonPicture>
+			<CommonPicture>ПодсистемаПрокат</CommonPicture>
+			<CommonPicture>ПодсистемаПаркОборудования</CommonPicture>
+			<CommonPicture>ПодсистемаСервис</CommonPicture>
+			<CommonPicture>ПодсистемаСклад</CommonPicture>
+			<CommonPicture>ПодсистемаАналитика</CommonPicture>
+			<CommonPicture>ПодсистемаАдминистрирование</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
@@ -988,6 +1000,7 @@
 			<DefinedType>ПрисоединенныйФайл</DefinedType>
 			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
+			<DefinedType>ОснованиеЗанятостиОборудования</DefinedType>
 			<CommonCommand>ВремяВПриложении</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ВсеФайлы</CommonCommand>
@@ -1055,6 +1068,9 @@
 			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>УдалитьНастройкиВходаПользователей</Constant>
+			<Constant>ОсновнаяОрганизация</Constant>
+			<Constant>ОсновнойСклад</Constant>
+			<Constant>МаксимальнаяСкидкаМенеджера</Constant>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
 			<CommonForm>ВопросОбУстановкеВнешнейКомпоненты</CommonForm>
@@ -1128,6 +1144,24 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ХранилищеДвоичныхДанных</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>Производители</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
+			<Catalog>КатегорииНоменклатуры</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>ЭкземплярыОборудования</Catalog>
+			<Catalog>ТарифныеПланы</Catalog>
+			<Catalog>ВидыСервисныхРабот</Catalog>
+			<Document>ЗаказАренды</Document>
+			<Document>ЗаказНарядСервиса</Document>
+			<Document>ПоступлениеОборудования</Document>
+			<Document>ВыдачаОборудования</Document>
+			<Document>ВозвратОборудования</Document>
+			<Document>ЗавершениеСервисныхРабот</Document>
+			<Document>УстановкаЦенАренды</Document>
+			<Document>ПоступлениеМатериалов</Document>
 			<Enum>ВариантыВерсионированияОбъектов</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
 			<Enum>ВариантыОтображенияМеток</Enum>
@@ -1164,6 +1198,16 @@
 			<Enum>ФорматыХраненияМногостраничныхФайлов</Enum>
 			<Enum>ЦветаСвойств</Enum>
 			<Enum>ЦветностиИзображения</Enum>
+			<Enum>ВидыКонтрагентов</Enum>
+			<Enum>ВидыНоменклатуры</Enum>
+			<Enum>СостоянияЭкземпляровОборудования</Enum>
+			<Enum>ВидыЗанятостиОборудования</Enum>
+			<Enum>ЕдиницыТарифа</Enum>
+			<Enum>РезультатыВозврата</Enum>
+			<Enum>ВидыСервиса</Enum>
+			<Enum>РезультатыСервиса</Enum>
+			<Enum>ВидыМестонахождения</Enum>
+			<Enum>ВидыСервисныхЗатрат</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>ДлительностьОтложенногоОбновления</Report>
 			<Report>ОбъемНенужныхФайлов</Report>
@@ -1173,6 +1217,10 @@
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
 			<Report>УчастникиГруппПользователей</Report>
+			<Report>ДоступностьОборудования</Report>
+			<Report>ИсторияЭкземпляра</Report>
+			<Report>ОстаткиМатериалов</Report>
+			<Report>ЗатратыНаСервис</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>ВводКонтактнойИнформации</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
@@ -1231,6 +1279,12 @@
 			<InformationRegister>УдалитьБезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>УдалитьДвоичныеДанныеФайлов</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
+			<InformationRegister>СостоянияЭкземпляровОборудования</InformationRegister>
+			<InformationRegister>МестонахождениеЭкземпляровОборудования</InformationRegister>
+			<InformationRegister>ТарифыАренды</InformationRegister>
+			<AccumulationRegister>ЗанятостьЭкземпляровОборудования</AccumulationRegister>
+			<AccumulationRegister>МатериалыНаСкладах</AccumulationRegister>
+			<AccumulationRegister>ЗатратыНаСервис</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
