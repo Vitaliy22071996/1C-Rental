@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеМатериалов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойСклад</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

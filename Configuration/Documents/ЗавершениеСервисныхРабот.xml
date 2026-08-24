@@ -61,11 +61,11 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗатратыНаСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.МатериалыНаСкладах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостоянияЭкземпляровОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.МестонахождениеЭкземпляровОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗанятостьЭкземпляровОборудования</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.МатериалыНаСкладах</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗатратыНаСервис</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>

@@ -915,6 +915,7 @@
 			<CommonModule>ФизическиеЛицаКлиентСерверЛокализация</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПрокат</CommonModule>
 			<CommonModule>ТехническиеХарактеристикиСервер</CommonModule>
+			<CommonModule>РаботаСДокументамиПроката</CommonModule>
 			<CommonAttribute>ОтредактированныеПредопределенныеРеквизиты</CommonAttribute>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>Адрес</XDTOPackage>
