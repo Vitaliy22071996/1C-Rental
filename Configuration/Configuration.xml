@@ -914,6 +914,7 @@
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСерверЛокализация</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПрокат</CommonModule>
+			<CommonModule>ТехническиеХарактеристикиСервер</CommonModule>
 			<CommonAttribute>ОтредактированныеПредопределенныеРеквизиты</CommonAttribute>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>Адрес</XDTOPackage>
@@ -1282,10 +1283,12 @@
 			<InformationRegister>СостоянияЭкземпляровОборудования</InformationRegister>
 			<InformationRegister>МестонахождениеЭкземпляровОборудования</InformationRegister>
 			<InformationRegister>ТарифыАренды</InformationRegister>
+			<InformationRegister>ЗначенияТехническихХарактеристикМоделей</InformationRegister>
 			<AccumulationRegister>ЗанятостьЭкземпляровОборудования</AccumulationRegister>
 			<AccumulationRegister>МатериалыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>ЗатратыНаСервис</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ТехническиеХарактеристикиОборудования</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
